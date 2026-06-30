@@ -116,7 +116,7 @@ export default function Home() {
             Reserve your slip for the airshow
           </h1>
           <p style={{ color: colors.inkMuted, fontSize: 15, margin: 0 }}>
-            Dock C Blue, $75 per slip per day
+            Dock C Blue, $175 per slip per day
           </p>
         </div>
 
@@ -168,7 +168,7 @@ export default function Home() {
             style={{
               border: 'none',
               background: 'none',
-              color: colors.ocean,
+              color: #C0392B,
               cursor: 'pointer',
               fontSize: 14,
               fontFamily: 'inherit',
@@ -238,7 +238,8 @@ export default function Home() {
           >
             <h2 style={{ fontSize: 19, fontWeight: 500, margin: 0, marginBottom: 4 }}>Reserve slip {modalSlip}</h2>
             <p style={{ color: colors.inkMuted, fontSize: 13, marginBottom: 18, marginTop: 0 }}>
-              {DAYS.find((d) => d.value === day)?.label}, {DAYS.find((d) => d.value === day)?.date} - $75
+              {DAYS.find((d) => d.value === day)?.label}, {DAYS.find((d) => d.value === day)?.date} - $175
+
             </p>
 
             {error && (
@@ -290,7 +291,7 @@ export default function Home() {
                   fontFamily: 'inherit', fontSize: 14, cursor: 'pointer',
                 }}
               >
-                {submitting ? 'Redirecting...' : 'Pay $75'}
+                {submitting ? 'Redirecting...' : 'Pay $175'}
               </button>
             </div>
           </form>
