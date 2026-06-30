@@ -55,7 +55,7 @@ export default async function handler(req, res) {
         {
           price_data: {
             currency: 'usd',
-            unit_amount: 7500,
+            unit_amount: 17500,
             product_data: {
               name: `Dock C Blue — Slip ${slipNumber}`,
               description: DAY_LABELS[day] || day,
