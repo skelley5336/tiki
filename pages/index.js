@@ -168,7 +168,7 @@ export default function Home() {
             style={{
               border: 'none',
               background: 'none',
-              color: #C0392B,
+              color: '#C0392B',
               cursor: 'pointer',
               fontSize: 14,
               fontFamily: 'inherit',
